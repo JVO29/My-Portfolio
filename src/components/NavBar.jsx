@@ -1,7 +1,6 @@
 import logo from "../assets/SH Logo.png"
 import { FaLinkedin } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
-import {motion} from "framer-motion";
 
 
 const NavBar = () => {

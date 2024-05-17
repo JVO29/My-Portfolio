@@ -1,5 +1,7 @@
-import project5 from "../assets/projects/Projects-5.png";
-import project6 from "../assets/projects/Projects-6.png";
+import project1 from "../assets/projects/Projects-1.png";
+import project2 from "../assets/projects/Projects-2.png";
+import project3 from "../assets/projects/Projects-3.png";
+import project4 from "../assets/projects/Projects-4.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With over 1 years of hands-on experience, I am trying to hone my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -28,32 +30,40 @@ diagrams, projects, assessments), WordPress (fundamentals, knowledge on HTML and
 
 export const PROJECTS = [
   {
-    title: "Aim Trainer",
-    image: project5,
+    title: "Bitcoin Tracker",
+    image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+        "Implementing a few languages like Typescript, Aircode.io and MySQL, I created a cross-functional local web \n" +
+        "application to show users in real time the value of which ever currency they intend to change into bitcoin, the \n" +
+        "application is intended to serve over 100 users.",
+    technologies: ["React", "Tailwind CSS", "Aircode", "Javascript, Vercel"],
+  },
+    {
+    title: "Aim Trainer",
+    image: project2,
+    description:
+      "Implemented intuitive mouse controls for aiming and shooting mechanics, providing users with an engaging and \n" +
+        "responsive gaming experience using languages like Python and its libraries like Pygame and Tkinter",
     technologies: ["Python", "PyGame"],
   },
-  {
-    title: "Bitcoin Tracker",
-    image: project6,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["React", "Tailwind CSS", "Aircode", "Javascript"],
-  },
+
   {
     title: "Portfolio Website",
-    image: project5,
+    image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Framer Motion", "Vercel"],
   },
   {
-    title: "Blogging Platform",
-    image: project6,
+    title: "Real Estate Website",
+    image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Ensured a design of developed a local-based web application using HTML, CSS, Visual Studio, IntelliJ, Node.js, and \n" +
+        "JavaScript, resulting in a user-friendly platform that offers properties to customers and allows them to book \n" +
+        "appointments. We improved the integration of the MySQL database with the HTML and CSS files to establish connectivity \n" +
+        "between front-end and back-end systems. Overcame challenges by breaking down tasks into manageable functions \n" +
+        "for each team member. Successfully bridged the gap between design and functionality with 100% data accuracy.",
+    technologies: ["HTML", "CSS", "mySQL", "JavaScript"],
   },
 ];
 

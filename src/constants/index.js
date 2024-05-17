@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/Projects-1.png";
-import project2 from "../assets/projects/Projects-2.png";
-import project3 from "../assets/projects/Projects-3.png";
-import project4 from "../assets/projects/Projects-4.png";
+import project1 from '../assets/projects/Projects-1.png'
+import project2 from '../assets/projects/Projects-2.png'
+import project3 from '../assets/projects/Project-3.png'
+import project4 from '../assets/projects/Project-4.jpg'
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With over 1 years of hands-on experience, I am trying to hone my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -15,7 +15,7 @@ export const EXPERIENCES = [
     description: `Developed and implemented a customer feedback program, leading to an 8% increase in positive customer
 reviews and a 10% improvement in overall customer satisfaction. Implemented a new inventory management system using Microsoft Excel to track perishable goods, reducing
 waste by 15%.`,
-    technologies: ["Microsoft Office"],
+    technologies: ["Microsoft Office", "Interpersonal Skill", "Communications"],
   },
   {
     year: "2020 - 2021",
